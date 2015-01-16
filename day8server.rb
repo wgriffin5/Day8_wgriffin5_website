@@ -1,21 +1,17 @@
 require 'sinatra'
 
-get '/' do |erb|
-	erb :will, layout: day8lazy
+get '/' do 
+	erb :day8index, layout: :layout
 	
 end
 
-get day8hello do
-	erb :day8hello, layout: day8lazy
+get '/jerry' do
+
+	erb :jerry, layout: :layout
 end
 
-get '/day8name' do
-	@coolest_person = "William Griffin"
-	@students = [
-		{
-			first_name: "William",
-			last_name: "Griffin"
-		}
-	]
-	erb :day8name, layout :day8lazy
+get '/kramer' do
+	
+	erb :kramer, layout: :layout
 end
+
