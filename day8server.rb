@@ -1,4 +1,8 @@
 require 'sinatra'
+require 'faker'
+require 'shotgun'
+
+
 
 get '/' do 
 	erb :day8index, layout: :layout

@@ -4,3 +4,6 @@ gem 'sinatra'
 
 
 gem 'faker' 
+
+
+gem 'shotgun'
