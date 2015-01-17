@@ -1,5 +1,5 @@
 body {
-	background-color: #99CCFF
+	background-color: #99CCFF;
 	width: 100%;
 	height: 100%;
 }
@@ -13,4 +13,25 @@ body {
 
 .images li {
 
+}
+
+.seinfeld {
+
+width: 500px;
+height: 500px;
+
+}
+
+
+
+.footer {
+	position: absolute;
+	bottom: 0px;
+
+}
+
+.header {
+
+	position: absolute;
+	top: 0px;
 }
