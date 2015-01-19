@@ -4,36 +4,38 @@ body {
 	height: 100%;
 }
 
+
 .inline-nobullets li {
     list-style-type: none;
     display: inline-block;
     padding-right: 250px;
     font-size: 40px;
 }
+
 	 
 .fonterize {
 	font-family: oblique;
 	font-size: 30px;
-
+	width: 60vw;
+	margin: 0 auto;
 }
 
-.seinfeld_content {
-background-color: red
-
-}
 
 .seinfeld_pic {
 position: absolute;
 width: 900px;
 height: 900px;
-top: 400px;
+top: 250px;
+left: 100px;
 background-color: green
+
 }
 
-
+.seinfeld_content {
+background-color: red
 .jerry_pic {
-	width: 650px;
-	height: 6500px;
+	width: 600px;
+	height: 600px;
 	background-color: green;
 	top: 200px;
 }
@@ -68,9 +70,9 @@ background-color: red
 
 
 .footer {
+	width: 100%;
 	position: absolute;
 	bottom: 0px;
-	width: 100%;
 	background-color: orange
 }
 
