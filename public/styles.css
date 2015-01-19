@@ -15,48 +15,103 @@ body {
 	 
 .fonterize {
 	font-family: oblique;
-	font-size: 30px;
-	width: 60vw;
-	margin: 0 auto;
+	font-size: 40px;
+	list-style-type: none;
+	
+
+}
+
+.seinfeld_title {
+	position: absolute;
+	top: 130px;
+	left: 500px;
+	font-size: 60px;
+	font-family: helvetica;
+	background-color: green;
 }
 
 
 .seinfeld_pic {
 position: absolute;
-width: 900px;
-height: 900px;
+width: 850px;
+height: 850px;
 top: 250px;
-left: 100px;
-background-color: green
+left: 250px;
+background-color: green;
 
 }
 
 .seinfeld_content {
-background-color: red
-.jerry_pic {
-	width: 600px;
-	height: 600px;
-	background-color: green;
-	top: 200px;
+	background-color: red;
+	width: 1200px;
+	height: 800px;
+	position: absolute;
+	list-style: none;
+	right: 100px;
+	top: 350px;
 }
+
+
+.jerry_title {
+	position: absolute;
+	/*top: 130px;*/
+	/*left: 500px;*/
+	font-size: 60px;
+	font-family: helvetica;
+	background-color: green;
+	right: 750px;
+	top: 150px;
+
+
+}
+
+
+.jerry_pic {
+	width: 700px;
+	height: 700px;
+	position: absolute;
+	top: 300px;
+	left: 200px;
+}
+
 
 
 .jerry_content {
-background-color: red
+background-color: red;
+width: 1300px;
+height: 800px;
+position: absolute;
+right: 200px;
+bottom: 200px;
 
 }
+
+
+.kramer_title {
+	position: absolute;
+	top: 300px;
+	left: 500px;
+
+}
+
 
 .kramer_pic {
 	width: 800px ;
 	height: 800px ;
-	background-color: green
+	background-color: green;
+	position: absolute;
+	right: 100px;
+	top: 200px;
 }
 
 
 .kramer_content {
-background-color: red
-
-
+background-color: red;
+width: 1300px;
+height: 800px;
+position: absolute;
+top: 300px;
+left: 200px;
 }
 
 
@@ -64,7 +119,7 @@ background-color: red
 	width: 100%;
 	position: absolute;
 	float: top;
-	background-color: orange
+	background-color: orange;
 }
 
 
@@ -72,8 +127,9 @@ background-color: red
 .footer {
 	width: 100%;
 	position: absolute;
+	float: bottom;
 	bottom: 0px;
-	background-color: orange
+	background-color: orange;
 }
 
 

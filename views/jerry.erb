@@ -8,14 +8,16 @@
 
 <body>
 
- <h1>Comedian Turned Mastermind</h1>
+<h1 class="jerry_title">
+ 	Comedian Turned Mastermind
+</h1>
 
 <img class="jerry_pic" src="images/jerry.jpg">
 
 <div class="jerry_content">
 
-	<ul="fonterize">
-		<p> <%= Faker::Lorem.paragraph %> </p>
+	<ul class="fonterize">
+		<li> <%= Faker::Lorem.paragraphs (5) %> </li>
 	</ul>
 
 </div>

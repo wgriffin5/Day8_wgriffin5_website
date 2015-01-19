@@ -9,15 +9,19 @@
 <body>
 
 
-<h1>With Friends like These</h1>
+<h1 class="kramer_title">
+	With Friends like These
+</h1>
  
 <img class="kramer_pic" src="images/kramer.jpg">
  
 
 <div class="kramer_content">
-	<ul="fonterize">
-		<p> <%= Faker::Lorem.paragraph %> </p>
+
+	<ul class="fonterize">
+		<li> <%= Faker::Lorem.paragraphs (6) %> </li>
 	</ul>
+
 </div>
 
 
